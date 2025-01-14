@@ -1,4 +1,4 @@
 package net.vannsanity.jurassicoverhaul.item;
 
-public class ModItem {
+public class ModItems {
 }
