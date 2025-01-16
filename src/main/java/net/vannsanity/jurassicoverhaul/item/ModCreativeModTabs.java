@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.vannsanity.jurassicoverhaul.JurassicOverhaul;
+import net.vannsanity.jurassicoverhaul.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -18,6 +19,16 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("crativetab.jurassic_overhaul_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.AMBER.get());
+
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> JURASSIC_OVERHAUL_BLOCKS = CREATIVE_MODE_TABS.register("jurassic_overhaul_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AMBER_BLOCK.get()))
+                    .title(Component.translatable("crativetab.jurassic_overhaul_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.AMBER_BLOCK.get());
 
 
                     })
