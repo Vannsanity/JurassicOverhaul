@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jurassicoverhaul:amber"
+    }
+  },
+  "result": {
+    "item": "jurassicoverhaul:amber_block"
+  }
+}

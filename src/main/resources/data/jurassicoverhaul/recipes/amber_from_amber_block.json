@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jurassicoverhaul:amber_block"
+    }
+  ],
+  "result": {
+    "item": "jurassicoverhaul:amber",
+    "count": 9
+  }
+}
