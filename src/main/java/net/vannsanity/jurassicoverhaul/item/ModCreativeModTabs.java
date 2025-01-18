@@ -20,6 +20,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("crativetab.jurassic_overhaul_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.AMBER_BLOCK.get());
+                        output.accept(ModBlocks.AMBER_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_AMBER_ORE.get());
 
 
                     })
