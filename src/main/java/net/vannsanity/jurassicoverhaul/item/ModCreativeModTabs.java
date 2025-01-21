@@ -32,6 +32,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("crativetab.jurassic_overhaul_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.AMBER.get());
+                        output.accept(ModItems.EMPTY_SYRINGE.get());
+                        output.accept(ModItems.DNA_SAMPLE.get());
 
 
                     })
